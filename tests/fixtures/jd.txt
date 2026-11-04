@@ -1,0 +1,28 @@
+Senior Lifecycle Marketing Manager
+
+About the role
+We're looking for a Senior Lifecycle Marketing Manager to own our retention and engagement programs across email, push, and in-app messaging. You will partner with Product, Data, and Design to grow customer lifetime value.
+
+What you'll do
+- Own the lifecycle strategy and roadmap for onboarding, activation, retention, and win-back journeys
+- Build and optimize automated journeys in Braze, including segmentation and personalization
+- Design and run A/B tests, analyze results with SQL, and share insights with executive stakeholders
+- Partner cross-functionally with Product and Data Science to define KPIs and dashboards in Looker
+- Manage a budget and report on ROI and LTV impact
+
+What you'll need
+- 5+ years of experience in lifecycle marketing, CRM marketing, or retention marketing
+- Hands-on experience with Braze, Iterable, or Customer.io
+- Strong SQL skills and experience with Looker or Tableau
+- Proven experience with A/B testing and experimentation
+- Excellent communication and storytelling skills
+- Bachelor's degree required
+
+Nice to have
+- Experience in a subscription or marketplace business
+- Familiarity with Amplitude
+- Copywriting experience
+
+Benefits
+- Medical, dental and vision insurance, 401(k) match, unlimited PTO
+We are an equal opportunity employer and value diversity and inclusion.

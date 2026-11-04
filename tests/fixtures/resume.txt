@@ -1,0 +1,24 @@
+Jordan Rivera
+Austin, TX | jordan.rivera@example.com | (512) 555-0142 | linkedin.com/in/jordanrivera
+
+Summary
+Lifecycle marketer with 6 years building email and push programs for consumer apps.
+
+Experience
+Lifecycle Marketing Manager, Brightcart (2021 - Present)
+- Responsible for email marketing and push notifications for 2M users
+- Built onboarding journeys in Iterable that lifted Day-7 activation 18%
+- Ran 40+ A/B tests on subject lines and offers, raising click rate 22%
+- Partnered with Product and Data teams on customer segmentation
+- Helped with the loyalty program launch
+
+Marketing Associate, Fernway (2019 - 2021)
+- Managed weekly newsletter for 300K subscribers
+- Created campaign reports in Excel and Tableau
+- Team player who is passionate about growth
+
+Education
+B.A., Communications, University of Texas at Austin, 2019
+
+Skills
+Iterable, Mailchimp, Tableau, Excel, Google Analytics, HTML
