@@ -63,12 +63,12 @@ def layout(path, title, description, body, depth, schema=None, active="", root=N
 <meta property="og:url" content="{e(canonical)}">
 <meta property="og:image" content="{BASE}/assets/kit-cover.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231f6f5c'/%3E%3Ctext x='16' y='22' font-size='17' font-family='Arial' font-weight='900' fill='white' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="{root}assets/logo.svg" type="image/svg+xml">
 <link rel="stylesheet" href="{root}assets/style.css">
 {ld}
 </head>
 <body data-root="{root}">
-<header class="site"><div class="wrap"><a class="brand" href="{root}"><span class="brand-mark">T</span>{e(NAME)}</a><nav class="main">{nav_html}</nav></div></header>
+<header class="site"><div class="wrap"><a class="brand" href="{root}"><svg width="28" height="28" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1F6F5C"/><path d="M19 12h19l9 9v27a4 4 0 0 1-4 4H19a4 4 0 0 1-4-4V16a4 4 0 0 1 4-4z" fill="#fff"/><path d="M38 12v7a2 2 0 0 0 2 2h7" fill="#CDEBE0"/><rect x="21" y="24" width="14" height="3.2" rx="1.6" fill="#B9DCCF"/><rect x="21" y="31" width="20" height="3.2" rx="1.6" fill="#B9DCCF"/><circle cx="44" cy="44" r="12" fill="#8FE0C6" stroke="#1F6F5C" stroke-width="3"/><path d="M38.5 44.2l3.8 3.8 7.4-7.6" fill="none" stroke="#0F3D33" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>{e(NAME)}</a><nav class="main">{nav_html}</nav></div></header>
 <main>
 {body}
 </main>
