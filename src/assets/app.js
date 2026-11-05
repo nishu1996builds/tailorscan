@@ -172,13 +172,15 @@
     });
     h.push('</ul>');
 
+    var launchOn = !!KIT.launch_price && Date.now() < Date.parse(KIT.launch_ends);
     if (KIT.url || KIT.page) {
       h.push('<div class="cta"><h3>Fix the gaps faster with ' + esc(KIT.name) + '</h3><p style="margin:0">Everything from this report, turned into a repeatable system you can run for every application:</p><ul>' +
         '<li>3 ATS-safe resume templates (Word and Google Docs) that parse cleanly</li>' +
         '<li>A 15-minute tailoring playbook with a bullet formula and 150+ action verbs</li>' +
         '<li>An application tracker that schedules your follow-ups and shows your funnel</li>' +
         '<li>Copy-paste scripts for referrals, recruiter outreach, follow-ups, and salary talks</li></ul>' +
-        '<a class="btn primary big" href="' + esc(KIT.page) + '" data-track="cta-results">See what is inside, ' + esc(KIT.price) + ' one time</a></div>');
+        '<a class="btn primary big" href="' + esc(KIT.page) + '" data-track="cta-results">See what is inside, ' + (launchOn ? esc(KIT.launch_price) + ' launch price (normally ' + esc(KIT.price) + ')' : esc(KIT.price) + ' one time') + '</a>' +
+        (KIT.free_url ? '<p style="margin:12px 0 0;font-size:.92rem">Not ready to buy? <a href="' + esc(KIT.free_url) + '" data-track="free-results">Get the free 15-minute tailoring checklist</a>.</p>' : '') + '</div>');
     }
     out.innerHTML = h.join('');
     out.classList.remove('hidden');

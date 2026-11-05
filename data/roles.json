@@ -3,300 +3,2050 @@
     "slug": "data-analyst",
     "title": "Data Analyst",
     "blurb": "Data analyst postings screen hard for query and visualization tools first, then for proof you turned analysis into a business decision. Recruiters search ATS databases for the exact tool names, so \"SQL\" and \"Tableau\" need to appear verbatim.",
-    "hard": ["SQL", "Data Analysis", "Data Visualization", "Dashboards", "Statistics", "A/B Testing", "Data Modeling", "ETL", "KPIs", "Forecasting", "Cohort Analysis", "Data Quality", "Business Intelligence", "Stakeholder Management"],
-    "tools": ["SQL", "Excel", "Tableau", "Power BI", "Looker", "Python", "BigQuery", "Snowflake", "dbt", "Google Analytics"],
-    "soft": ["Data storytelling", "Attention to detail", "Problem solving", "Cross-functional collaboration", "Presentation skills"],
-    "certs": ["Google Data Analytics Certificate", "Microsoft PL-300 (Power BI)", "Tableau Desktop Specialist"],
+    "hard": [
+      "SQL",
+      "Data Analysis",
+      "Data Visualization",
+      "Dashboards",
+      "Statistics",
+      "A/B Testing",
+      "Data Modeling",
+      "ETL",
+      "KPIs",
+      "Forecasting",
+      "Cohort Analysis",
+      "Data Quality",
+      "Business Intelligence",
+      "Stakeholder Management"
+    ],
+    "tools": [
+      "SQL",
+      "Excel",
+      "Tableau",
+      "Power BI",
+      "Looker",
+      "Python",
+      "BigQuery",
+      "Snowflake",
+      "dbt",
+      "Google Analytics"
+    ],
+    "soft": [
+      "Data storytelling",
+      "Attention to detail",
+      "Problem solving",
+      "Cross-functional collaboration",
+      "Presentation skills"
+    ],
+    "certs": [
+      "Google Data Analytics Certificate",
+      "Microsoft PL-300 (Power BI)",
+      "Tableau Desktop Specialist"
+    ],
     "bullets": [
       "Built a Tableau KPI dashboard used by 40+ managers weekly, replacing 6 manual Excel reports and saving 12 hours a week.",
       "Wrote SQL cohort analysis that found a 22% Day-30 churn spike tied to one onboarding step; the fix cut churn 9 points.",
       "Automated a daily ETL pipeline in dbt and Snowflake, cutting report latency from 3 days to 4 hours."
     ],
-    "mistakes": ["Listing tools with no bullet showing what you did with them.", "Describing queries instead of the decision they changed.", "Leaving out data volume (rows, users, dollars) that signals scale."]
+    "mistakes": [
+      "Listing tools with no bullet showing what you did with them.",
+      "Describing queries instead of the decision they changed.",
+      "Leaving out data volume (rows, users, dollars) that signals scale."
+    ]
   },
   {
     "slug": "data-scientist",
     "title": "Data Scientist",
     "blurb": "Data science screens look for modeling depth, the stack you used, and evidence that a model shipped and moved a metric. A list of algorithms without outcomes reads as academic.",
-    "hard": ["Machine Learning", "Statistics", "Predictive Modeling", "A/B Testing", "Experimentation", "Regression", "Natural Language Processing", "Deep Learning", "Feature Engineering", "Forecasting", "Segmentation", "Data Pipelines", "Model Deployment"],
-    "tools": ["Python", "SQL", "pandas", "scikit-learn", "PyTorch", "TensorFlow", "Spark", "Databricks", "AWS", "Airflow", "Git"],
-    "soft": ["Communication", "Problem solving", "Stakeholder management", "Critical thinking", "Data storytelling"],
-    "certs": ["AWS Certified Machine Learning", "Google Professional Data Engineer", "Master's degree in a quantitative field"],
+    "hard": [
+      "Machine Learning",
+      "Statistics",
+      "Predictive Modeling",
+      "A/B Testing",
+      "Experimentation",
+      "Regression",
+      "Natural Language Processing",
+      "Deep Learning",
+      "Feature Engineering",
+      "Forecasting",
+      "Segmentation",
+      "Data Pipelines",
+      "Model Deployment"
+    ],
+    "tools": [
+      "Python",
+      "SQL",
+      "pandas",
+      "scikit-learn",
+      "PyTorch",
+      "TensorFlow",
+      "Spark",
+      "Databricks",
+      "AWS",
+      "Airflow",
+      "Git"
+    ],
+    "soft": [
+      "Communication",
+      "Problem solving",
+      "Stakeholder management",
+      "Critical thinking",
+      "Data storytelling"
+    ],
+    "certs": [
+      "AWS Certified Machine Learning",
+      "Google Professional Data Engineer",
+      "Master's degree in a quantitative field"
+    ],
     "bullets": [
       "Shipped a gradient-boosted churn model (AUC 0.86) that targeted retention offers and saved $1.2M ARR in year one.",
       "Designed and analyzed 30+ A/B tests with CUPED variance reduction, cutting required sample sizes 35%.",
       "Built an NLP ticket classifier in PyTorch that auto-routed 60% of support volume."
     ],
-    "mistakes": ["Naming algorithms without the business result.", "Omitting how the model was deployed or used.", "Burying Python and SQL below niche libraries."]
+    "mistakes": [
+      "Naming algorithms without the business result.",
+      "Omitting how the model was deployed or used.",
+      "Burying Python and SQL below niche libraries."
+    ]
   },
   {
     "slug": "software-engineer",
     "title": "Software Engineer",
     "blurb": "Engineering ATS filters key on languages, frameworks, and cloud platforms, so match the posting's exact stack names. Human reviewers then look for scale, ownership, and impact.",
-    "hard": ["System Design", "REST APIs", "Microservices", "Distributed Systems", "Unit Testing", "CI/CD", "Code Review", "Data Structures", "Algorithms", "Agile", "Debugging", "Performance Optimization"],
-    "tools": ["JavaScript", "TypeScript", "Python", "Java", "Go", "React", "Node.js", "AWS", "Docker", "Kubernetes", "PostgreSQL", "Git"],
-    "soft": ["Collaboration", "Ownership", "Mentoring", "Communication", "Problem solving"],
-    "certs": ["AWS Certified Developer", "Certified Kubernetes Application Developer", "Bachelor's in Computer Science or equivalent"],
+    "hard": [
+      "System Design",
+      "REST APIs",
+      "Microservices",
+      "Distributed Systems",
+      "Unit Testing",
+      "CI/CD",
+      "Code Review",
+      "Data Structures",
+      "Algorithms",
+      "Agile",
+      "Debugging",
+      "Performance Optimization"
+    ],
+    "tools": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "Java",
+      "Go",
+      "React",
+      "Node.js",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "Git"
+    ],
+    "soft": [
+      "Collaboration",
+      "Ownership",
+      "Mentoring",
+      "Communication",
+      "Problem solving"
+    ],
+    "certs": [
+      "AWS Certified Developer",
+      "Certified Kubernetes Application Developer",
+      "Bachelor's in Computer Science or equivalent"
+    ],
     "bullets": [
       "Re-architected the checkout service into Go microservices, cutting p95 latency from 900ms to 180ms at 5K requests/sec.",
       "Built CI/CD pipelines in GitHub Actions that took deploys from weekly to 20+ per day with zero-downtime rollbacks.",
       "Led a React and TypeScript migration of a 200K-line codebase, cutting front-end bugs 40%."
     ],
-    "mistakes": ["A skills list of 40 technologies with no indication of depth.", "Bullets describing tasks (\"worked on APIs\") instead of outcomes.", "No numbers for scale: users, requests, data size, latency."]
+    "mistakes": [
+      "A skills list of 40 technologies with no indication of depth.",
+      "Bullets describing tasks (\"worked on APIs\") instead of outcomes.",
+      "No numbers for scale: users, requests, data size, latency."
+    ]
   },
   {
     "slug": "product-manager",
     "title": "Product Manager",
     "blurb": "PM resumes are screened for ownership of outcomes, not features. ATS keywords cluster around roadmap, discovery, experimentation, and metrics, so name the frameworks and tools the posting uses.",
-    "hard": ["Product Strategy", "Product Roadmap", "Product Requirements", "User Research", "A/B Testing", "Go-to-Market", "KPIs", "Agile", "Prioritization", "Data Analysis", "Customer Discovery", "Pricing", "OKRs"],
-    "tools": ["Jira", "Confluence", "Figma", "Amplitude", "Mixpanel", "SQL", "Looker", "Productboard", "Notion"],
-    "soft": ["Stakeholder management", "Cross-functional leadership", "Communication", "Decision making", "Influence without authority"],
-    "certs": ["Certified Scrum Product Owner (CSPO)", "Pragmatic Institute certification", "MBA (often preferred, rarely required)"],
+    "hard": [
+      "Product Strategy",
+      "Product Roadmap",
+      "Product Requirements",
+      "User Research",
+      "A/B Testing",
+      "Go-to-Market",
+      "KPIs",
+      "Agile",
+      "Prioritization",
+      "Data Analysis",
+      "Customer Discovery",
+      "Pricing",
+      "OKRs"
+    ],
+    "tools": [
+      "Jira",
+      "Confluence",
+      "Figma",
+      "Amplitude",
+      "Mixpanel",
+      "SQL",
+      "Looker",
+      "Productboard",
+      "Notion"
+    ],
+    "soft": [
+      "Stakeholder management",
+      "Cross-functional leadership",
+      "Communication",
+      "Decision making",
+      "Influence without authority"
+    ],
+    "certs": [
+      "Certified Scrum Product Owner (CSPO)",
+      "Pragmatic Institute certification",
+      "MBA (often preferred, rarely required)"
+    ],
     "bullets": [
       "Owned the onboarding roadmap for a 3M-user app; shipped 4 experiments that lifted Week-1 activation from 31% to 44%.",
       "Ran 50+ customer interviews to define a self-serve tier that added $2.4M ARR in its first two quarters.",
       "Aligned engineering, design, and sales on a pricing change that raised ARPU 18% with no rise in churn."
     ],
-    "mistakes": ["Listing features you shipped without the metric they moved.", "Using \"helped\" or \"supported\" for work you owned.", "No evidence of working with engineering and design."]
+    "mistakes": [
+      "Listing features you shipped without the metric they moved.",
+      "Using \"helped\" or \"supported\" for work you owned.",
+      "No evidence of working with engineering and design."
+    ]
   },
   {
     "slug": "project-manager",
     "title": "Project Manager",
     "blurb": "Project manager screens look for methodology (Agile, Waterfall, PMP), budget and scope ownership, and on-time delivery. Name the size of what you ran: budget, team, timeline.",
-    "hard": ["Project Management", "Project Planning", "Risk Management", "Budget Management", "Stakeholder Management", "Agile", "Scrum", "Waterfall", "Resource Planning", "Change Management", "Vendor Management", "Status Reporting"],
-    "tools": ["Jira", "Asana", "Smartsheet", "MS Project", "Confluence", "Monday.com", "Excel"],
-    "soft": ["Communication", "Leadership", "Organization", "Negotiation", "Problem solving"],
-    "certs": ["PMP", "Certified ScrumMaster (CSM)", "PMI-ACP", "PRINCE2"],
+    "hard": [
+      "Project Management",
+      "Project Planning",
+      "Risk Management",
+      "Budget Management",
+      "Stakeholder Management",
+      "Agile",
+      "Scrum",
+      "Waterfall",
+      "Resource Planning",
+      "Change Management",
+      "Vendor Management",
+      "Status Reporting"
+    ],
+    "tools": [
+      "Jira",
+      "Asana",
+      "Smartsheet",
+      "MS Project",
+      "Confluence",
+      "Monday.com",
+      "Excel"
+    ],
+    "soft": [
+      "Communication",
+      "Leadership",
+      "Organization",
+      "Negotiation",
+      "Problem solving"
+    ],
+    "certs": [
+      "PMP",
+      "Certified ScrumMaster (CSM)",
+      "PMI-ACP",
+      "PRINCE2"
+    ],
     "bullets": [
       "Delivered a $3.2M ERP rollout across 4 sites two weeks early and 6% under budget, coordinating 35 stakeholders.",
       "Introduced Agile ceremonies to a 12-person team, raising on-time sprint completion from 58% to 91%.",
       "Built a risk register and vendor scorecard that cut change-order costs 22% year over year."
     ],
-    "mistakes": ["Listing duties without budget, team size, or timeline.", "Missing the methodology named in the posting.", "No proof of delivering on time or under budget."]
+    "mistakes": [
+      "Listing duties without budget, team size, or timeline.",
+      "Missing the methodology named in the posting.",
+      "No proof of delivering on time or under budget."
+    ]
   },
   {
     "slug": "marketing-manager",
     "title": "Marketing Manager",
     "blurb": "Marketing manager screens blend channel expertise with business results. Expect the ATS to look for campaign strategy, budget ownership, and the platforms you run.",
-    "hard": ["Marketing Strategy", "Campaign Management", "Demand Generation", "Content Marketing", "Email Marketing", "SEO", "Paid Social", "Marketing Automation", "Budget Management", "ROI", "Brand Marketing", "Market Research", "Analytics"],
-    "tools": ["HubSpot", "Salesforce", "Google Analytics", "Google Ads", "Meta Ads", "Marketo", "Canva", "Excel"],
-    "soft": ["Leadership", "Creativity", "Communication", "Project management", "Data-driven decision making"],
-    "certs": ["HubSpot Inbound Marketing", "Google Ads Certification", "Google Analytics Certification"],
+    "hard": [
+      "Marketing Strategy",
+      "Campaign Management",
+      "Demand Generation",
+      "Content Marketing",
+      "Email Marketing",
+      "SEO",
+      "Paid Social",
+      "Marketing Automation",
+      "Budget Management",
+      "ROI",
+      "Brand Marketing",
+      "Market Research",
+      "Analytics"
+    ],
+    "tools": [
+      "HubSpot",
+      "Salesforce",
+      "Google Analytics",
+      "Google Ads",
+      "Meta Ads",
+      "Marketo",
+      "Canva",
+      "Excel"
+    ],
+    "soft": [
+      "Leadership",
+      "Creativity",
+      "Communication",
+      "Project management",
+      "Data-driven decision making"
+    ],
+    "certs": [
+      "HubSpot Inbound Marketing",
+      "Google Ads Certification",
+      "Google Analytics Certification"
+    ],
     "bullets": [
       "Owned a $1.8M annual budget across paid, email, and events; grew marketing-sourced pipeline 64% at a 4.1x ROI.",
       "Launched an SEO content program that grew organic traffic from 20K to 110K monthly visits in 12 months.",
       "Built HubSpot nurture streams that raised MQL-to-SQL conversion from 9% to 17%."
     ],
-    "mistakes": ["Vanity metrics (impressions) with no link to pipeline or revenue.", "No budget figure, which signals junior scope.", "Generic \"managed social media\" bullets."]
+    "mistakes": [
+      "Vanity metrics (impressions) with no link to pipeline or revenue.",
+      "No budget figure, which signals junior scope.",
+      "Generic \"managed social media\" bullets."
+    ]
   },
   {
     "slug": "digital-marketing-specialist",
     "title": "Digital Marketing Specialist",
     "blurb": "Digital marketing roles are tool-heavy and ATS filters reflect that. Name each ad platform and analytics tool you have run campaigns in, and pair them with spend and performance.",
-    "hard": ["SEO", "SEM", "PPC", "Paid Social", "Email Marketing", "Content Marketing", "Conversion Rate Optimization", "A/B Testing", "Google Analytics", "Social Media Marketing", "Copywriting", "Landing Pages", "ROAS"],
-    "tools": ["Google Ads", "Meta Ads Manager", "GA4", "Google Tag Manager", "SEMrush", "Ahrefs", "Mailchimp", "HubSpot", "Canva", "WordPress"],
-    "soft": ["Creativity", "Attention to detail", "Analytical thinking", "Communication", "Time management"],
-    "certs": ["Google Ads Search Certification", "Meta Certified Digital Marketing Associate", "GA4 Certification"],
+    "hard": [
+      "SEO",
+      "SEM",
+      "PPC",
+      "Paid Social",
+      "Email Marketing",
+      "Content Marketing",
+      "Conversion Rate Optimization",
+      "A/B Testing",
+      "Google Analytics",
+      "Social Media Marketing",
+      "Copywriting",
+      "Landing Pages",
+      "ROAS"
+    ],
+    "tools": [
+      "Google Ads",
+      "Meta Ads Manager",
+      "GA4",
+      "Google Tag Manager",
+      "SEMrush",
+      "Ahrefs",
+      "Mailchimp",
+      "HubSpot",
+      "Canva",
+      "WordPress"
+    ],
+    "soft": [
+      "Creativity",
+      "Attention to detail",
+      "Analytical thinking",
+      "Communication",
+      "Time management"
+    ],
+    "certs": [
+      "Google Ads Search Certification",
+      "Meta Certified Digital Marketing Associate",
+      "GA4 Certification"
+    ],
     "bullets": [
       "Managed $40K/month in Google and Meta ads, raising ROAS from 2.1x to 3.6x through audience and creative testing.",
       "Rebuilt 12 landing pages with A/B tests that lifted conversion rate from 2.8% to 4.5%.",
       "Grew the email list 3x to 85K subscribers with lead magnets and a 5-email welcome series."
     ],
-    "mistakes": ["Listing platforms without spend levels.", "No conversion or ROAS numbers.", "Leaving out GA4 and Tag Manager, which many postings filter on."]
+    "mistakes": [
+      "Listing platforms without spend levels.",
+      "No conversion or ROAS numbers.",
+      "Leaving out GA4 and Tag Manager, which many postings filter on."
+    ]
   },
   {
     "slug": "lifecycle-marketing-manager",
     "title": "Lifecycle Marketing Manager",
     "blurb": "Lifecycle and CRM roles are screened on your messaging platform (Braze, Iterable, Klaviyo, Salesforce Marketing Cloud), segmentation skill, and retention results. The platform name is often a hard filter.",
-    "hard": ["Lifecycle Marketing", "CRM Marketing", "Retention", "Email Marketing", "Push Notifications", "In-app Messaging", "Segmentation", "Personalization", "A/B Testing", "Customer Lifetime Value", "Onboarding", "Win-back", "Marketing Automation", "SQL"],
-    "tools": ["Braze", "Iterable", "Klaviyo", "Customer.io", "Salesforce Marketing Cloud", "Amplitude", "Segment", "Looker", "SQL"],
-    "soft": ["Cross-functional collaboration", "Data-driven decision making", "Copywriting", "Communication", "Ownership"],
-    "certs": ["Braze Certified Marketer", "Salesforce Marketing Cloud Email Specialist", "Klaviyo Product Certificate"],
+    "hard": [
+      "Lifecycle Marketing",
+      "CRM Marketing",
+      "Retention",
+      "Email Marketing",
+      "Push Notifications",
+      "In-app Messaging",
+      "Segmentation",
+      "Personalization",
+      "A/B Testing",
+      "Customer Lifetime Value",
+      "Onboarding",
+      "Win-back",
+      "Marketing Automation",
+      "SQL"
+    ],
+    "tools": [
+      "Braze",
+      "Iterable",
+      "Klaviyo",
+      "Customer.io",
+      "Salesforce Marketing Cloud",
+      "Amplitude",
+      "Segment",
+      "Looker",
+      "SQL"
+    ],
+    "soft": [
+      "Cross-functional collaboration",
+      "Data-driven decision making",
+      "Copywriting",
+      "Communication",
+      "Ownership"
+    ],
+    "certs": [
+      "Braze Certified Marketer",
+      "Salesforce Marketing Cloud Email Specialist",
+      "Klaviyo Product Certificate"
+    ],
     "bullets": [
       "Built a 7-touch onboarding journey in Braze that lifted Day-30 retention 14% across 1.2M new users.",
       "Launched a win-back program with SQL-driven churn segments that recovered $680K in annual revenue.",
       "Ran 60+ A/B tests on email and push cadence, raising LTV 11% while cutting unsubscribes 20%."
     ],
-    "mistakes": ["Naming no messaging platform, which can fail a hard filter.", "Reporting opens and clicks instead of retention and revenue.", "No mention of segmentation or experimentation."]
+    "mistakes": [
+      "Naming no messaging platform, which can fail a hard filter.",
+      "Reporting opens and clicks instead of retention and revenue.",
+      "No mention of segmentation or experimentation."
+    ]
   },
   {
     "slug": "growth-marketing-manager",
     "title": "Growth Marketing Manager",
     "blurb": "Growth roles reward a full-funnel, experiment-driven story. ATS keywords cluster around acquisition, activation, retention, experimentation, and attribution, plus the analytics stack.",
-    "hard": ["Growth Marketing", "Customer Acquisition", "Activation", "Retention", "A/B Testing", "Experimentation", "Funnel Optimization", "Attribution", "CAC", "LTV", "Paid Acquisition", "SEO", "Referral Programs", "SQL"],
-    "tools": ["Amplitude", "Mixpanel", "Google Analytics", "Google Ads", "Meta Ads", "Braze", "Segment", "SQL", "Looker"],
-    "soft": ["Ownership", "Analytical thinking", "Cross-functional collaboration", "Bias for action", "Communication"],
-    "certs": ["Reforge programs", "Google Ads Certification", "CXL Growth Marketing"],
+    "hard": [
+      "Growth Marketing",
+      "Customer Acquisition",
+      "Activation",
+      "Retention",
+      "A/B Testing",
+      "Experimentation",
+      "Funnel Optimization",
+      "Attribution",
+      "CAC",
+      "LTV",
+      "Paid Acquisition",
+      "SEO",
+      "Referral Programs",
+      "SQL"
+    ],
+    "tools": [
+      "Amplitude",
+      "Mixpanel",
+      "Google Analytics",
+      "Google Ads",
+      "Meta Ads",
+      "Braze",
+      "Segment",
+      "SQL",
+      "Looker"
+    ],
+    "soft": [
+      "Ownership",
+      "Analytical thinking",
+      "Cross-functional collaboration",
+      "Bias for action",
+      "Communication"
+    ],
+    "certs": [
+      "Reforge programs",
+      "Google Ads Certification",
+      "CXL Growth Marketing"
+    ],
     "bullets": [
       "Cut blended CAC 28% in two quarters by shifting spend to high-LTV channels identified through attribution analysis.",
       "Launched a referral program that drove 19% of new signups at one-third the CAC of paid.",
       "Ran a 40-test experimentation roadmap across the funnel, compounding to a 33% lift in signup-to-paid conversion."
     ],
-    "mistakes": ["Channel bullets with no funnel metric.", "Missing CAC and LTV, the two numbers growth leaders scan for.", "No sign of an experimentation process."]
+    "mistakes": [
+      "Channel bullets with no funnel metric.",
+      "Missing CAC and LTV, the two numbers growth leaders scan for.",
+      "No sign of an experimentation process."
+    ]
   },
   {
     "slug": "product-marketing-manager",
     "title": "Product Marketing Manager",
     "blurb": "PMM resumes are screened for positioning, launches, and sales enablement. Show you can turn product capability into messaging that moves win rates and adoption.",
-    "hard": ["Product Marketing", "Positioning", "Messaging", "Go-to-Market", "Product Launches", "Sales Enablement", "Competitive Intelligence", "Market Research", "Customer Research", "Pricing", "Content Strategy", "Buyer Personas"],
-    "tools": ["Salesforce", "HubSpot", "Gong", "Highspot", "Figma", "Google Slides", "Notion"],
-    "soft": ["Storytelling", "Influence", "Cross-functional collaboration", "Communication", "Strategic thinking"],
-    "certs": ["Product Marketing Alliance certification", "Pragmatic Institute certification"],
+    "hard": [
+      "Product Marketing",
+      "Positioning",
+      "Messaging",
+      "Go-to-Market",
+      "Product Launches",
+      "Sales Enablement",
+      "Competitive Intelligence",
+      "Market Research",
+      "Customer Research",
+      "Pricing",
+      "Content Strategy",
+      "Buyer Personas"
+    ],
+    "tools": [
+      "Salesforce",
+      "HubSpot",
+      "Gong",
+      "Highspot",
+      "Figma",
+      "Google Slides",
+      "Notion"
+    ],
+    "soft": [
+      "Storytelling",
+      "Influence",
+      "Cross-functional collaboration",
+      "Communication",
+      "Strategic thinking"
+    ],
+    "certs": [
+      "Product Marketing Alliance certification",
+      "Pragmatic Institute certification"
+    ],
     "bullets": [
       "Led positioning and launch for a new analytics product that hit 140% of its first-quarter pipeline target.",
       "Built competitive battlecards from 80 Gong calls, raising head-to-head win rate from 32% to 46%.",
       "Ran pricing research with 300 customers that informed a packaging change worth $3M in new ARR."
     ],
-    "mistakes": ["Describing launches without adoption or pipeline results.", "No sales enablement evidence.", "Leaving out customer research methods."]
+    "mistakes": [
+      "Describing launches without adoption or pipeline results.",
+      "No sales enablement evidence.",
+      "Leaving out customer research methods."
+    ]
   },
   {
     "slug": "account-executive",
     "title": "Account Executive",
     "blurb": "Sales resumes are skimmed for quota attainment in seconds. Put percent of quota, deal size, and sales cycle in the first bullet of every role, and name the CRM and methodology.",
-    "hard": ["Quota Attainment", "Pipeline Management", "Prospecting", "Negotiation", "Closing", "Account Management", "Solution Selling", "Discovery", "Forecasting", "Enterprise Sales", "SaaS", "Cold Outreach", "MEDDICC"],
-    "tools": ["Salesforce", "HubSpot", "Gong", "Outreach.io", "Salesloft", "LinkedIn Sales Navigator", "ZoomInfo"],
-    "soft": ["Communication", "Resilience", "Relationship building", "Negotiation", "Coachability"],
-    "certs": ["MEDDICC training", "Challenger Sale", "Sandler Training"],
+    "hard": [
+      "Quota Attainment",
+      "Pipeline Management",
+      "Prospecting",
+      "Negotiation",
+      "Closing",
+      "Account Management",
+      "Solution Selling",
+      "Discovery",
+      "Forecasting",
+      "Enterprise Sales",
+      "SaaS",
+      "Cold Outreach",
+      "MEDDICC"
+    ],
+    "tools": [
+      "Salesforce",
+      "HubSpot",
+      "Gong",
+      "Outreach.io",
+      "Salesloft",
+      "LinkedIn Sales Navigator",
+      "ZoomInfo"
+    ],
+    "soft": [
+      "Communication",
+      "Resilience",
+      "Relationship building",
+      "Negotiation",
+      "Coachability"
+    ],
+    "certs": [
+      "MEDDICC training",
+      "Challenger Sale",
+      "Sandler Training"
+    ],
     "bullets": [
       "Closed $1.9M in new ARR at 132% of quota, ranking #2 of 24 AEs; average deal size $85K.",
       "Built 60% of own pipeline through outbound with Sales Navigator and Outreach sequences.",
       "Shortened the enterprise sales cycle from 110 to 75 days by introducing MEDDICC-based mutual action plans."
     ],
-    "mistakes": ["No quota attainment number, which recruiters read as a miss.", "No deal size or segment (SMB, mid-market, enterprise).", "Listing responsibilities instead of rankings and results."]
+    "mistakes": [
+      "No quota attainment number, which recruiters read as a miss.",
+      "No deal size or segment (SMB, mid-market, enterprise).",
+      "Listing responsibilities instead of rankings and results."
+    ]
   },
   {
     "slug": "customer-success-manager",
     "title": "Customer Success Manager",
     "blurb": "CSM screens focus on retention, expansion, and the size of the book you manage. Name your book value, renewal rate, and the CS platform you use.",
-    "hard": ["Customer Success", "Account Management", "Customer Onboarding", "Retention", "Churn Reduction", "Renewals", "Upsell", "Expansion Revenue", "QBRs", "Customer Health Scores", "NPS", "SaaS", "Escalation Management"],
-    "tools": ["Gainsight", "Salesforce", "HubSpot", "Zendesk", "Intercom", "ChurnZero", "Totango", "Jira"],
-    "soft": ["Relationship building", "Communication", "Empathy", "Problem solving", "Executive presence"],
-    "certs": ["Certified Customer Success Manager (CCSM)", "Gainsight Admin"],
+    "hard": [
+      "Customer Success",
+      "Account Management",
+      "Customer Onboarding",
+      "Retention",
+      "Churn Reduction",
+      "Renewals",
+      "Upsell",
+      "Expansion Revenue",
+      "QBRs",
+      "Customer Health Scores",
+      "NPS",
+      "SaaS",
+      "Escalation Management"
+    ],
+    "tools": [
+      "Gainsight",
+      "Salesforce",
+      "HubSpot",
+      "Zendesk",
+      "Intercom",
+      "ChurnZero",
+      "Totango",
+      "Jira"
+    ],
+    "soft": [
+      "Relationship building",
+      "Communication",
+      "Empathy",
+      "Problem solving",
+      "Executive presence"
+    ],
+    "certs": [
+      "Certified Customer Success Manager (CCSM)",
+      "Gainsight Admin"
+    ],
     "bullets": [
       "Managed a $4.2M book of 45 mid-market accounts with a 96% gross renewal rate and 118% net revenue retention.",
       "Rebuilt onboarding playbooks that cut time-to-value from 45 to 21 days.",
       "Built Gainsight health scores that flagged at-risk accounts 60 days earlier, saving $500K in renewals."
     ],
-    "mistakes": ["No book size or account count.", "Missing renewal or NRR figures.", "Describing support tickets instead of strategic outcomes."]
+    "mistakes": [
+      "No book size or account count.",
+      "Missing renewal or NRR figures.",
+      "Describing support tickets instead of strategic outcomes."
+    ]
   },
   {
     "slug": "business-analyst",
     "title": "Business Analyst",
     "blurb": "Business analyst postings filter on requirements gathering, process mapping, and SQL or BI tools. Show the bridge you built between stakeholders and delivery teams.",
-    "hard": ["Requirements Gathering", "Business Requirements", "User Stories", "Process Mapping", "Process Improvement", "Gap Analysis", "Data Analysis", "Stakeholder Management", "UAT", "Agile", "Documentation", "KPIs"],
-    "tools": ["SQL", "Excel", "Jira", "Confluence", "Visio", "Tableau", "Power BI", "Lucidchart"],
-    "soft": ["Communication", "Problem solving", "Attention to detail", "Facilitation", "Critical thinking"],
-    "certs": ["CBAP", "CCBA", "PMI-PBA", "Six Sigma Green Belt"],
+    "hard": [
+      "Requirements Gathering",
+      "Business Requirements",
+      "User Stories",
+      "Process Mapping",
+      "Process Improvement",
+      "Gap Analysis",
+      "Data Analysis",
+      "Stakeholder Management",
+      "UAT",
+      "Agile",
+      "Documentation",
+      "KPIs"
+    ],
+    "tools": [
+      "SQL",
+      "Excel",
+      "Jira",
+      "Confluence",
+      "Visio",
+      "Tableau",
+      "Power BI",
+      "Lucidchart"
+    ],
+    "soft": [
+      "Communication",
+      "Problem solving",
+      "Attention to detail",
+      "Facilitation",
+      "Critical thinking"
+    ],
+    "certs": [
+      "CBAP",
+      "CCBA",
+      "PMI-PBA",
+      "Six Sigma Green Belt"
+    ],
     "bullets": [
       "Gathered requirements from 20 stakeholders and wrote 140 user stories for a claims platform delivered on schedule.",
       "Mapped the order-to-cash process and removed 4 handoffs, cutting cycle time 35%.",
       "Built Power BI dashboards that replaced 10 manual reports and saved the finance team 15 hours a week."
     ],
-    "mistakes": ["No named methodology or documentation artifacts.", "Missing SQL or BI tools when the posting lists them.", "Bullets with no measurable process outcome."]
+    "mistakes": [
+      "No named methodology or documentation artifacts.",
+      "Missing SQL or BI tools when the posting lists them.",
+      "Bullets with no measurable process outcome."
+    ]
   },
   {
     "slug": "financial-analyst",
     "title": "Financial Analyst",
     "blurb": "Financial analyst screens look for modeling, FP&A, and Excel depth, plus the ERP or planning tools you have used. Quantify the size of the budgets and forecasts you owned.",
-    "hard": ["Financial Modeling", "FP&A", "Forecasting", "Budgeting", "Variance Analysis", "Financial Reporting", "Valuation", "Scenario Analysis", "P&L", "GAAP", "Month-end Close", "KPIs"],
-    "tools": ["Excel", "NetSuite", "SAP", "Oracle", "Adaptive Planning", "Anaplan", "Power BI", "SQL"],
-    "soft": ["Attention to detail", "Analytical thinking", "Communication", "Business partnering", "Time management"],
-    "certs": ["CFA (or candidate)", "CPA", "FMVA", "MBA"],
+    "hard": [
+      "Financial Modeling",
+      "FP&A",
+      "Forecasting",
+      "Budgeting",
+      "Variance Analysis",
+      "Financial Reporting",
+      "Valuation",
+      "Scenario Analysis",
+      "P&L",
+      "GAAP",
+      "Month-end Close",
+      "KPIs"
+    ],
+    "tools": [
+      "Excel",
+      "NetSuite",
+      "SAP",
+      "Oracle",
+      "Adaptive Planning",
+      "Anaplan",
+      "Power BI",
+      "SQL"
+    ],
+    "soft": [
+      "Attention to detail",
+      "Analytical thinking",
+      "Communication",
+      "Business partnering",
+      "Time management"
+    ],
+    "certs": [
+      "CFA (or candidate)",
+      "CPA",
+      "FMVA",
+      "MBA"
+    ],
     "bullets": [
       "Built a driver-based forecast model for a $120M P&L that cut forecast variance from 8% to 2.5%.",
       "Led monthly variance analysis for 6 business units, surfacing $1.4M in cost savings.",
       "Automated the close package in Excel and Power BI, cutting reporting time from 5 days to 2."
     ],
-    "mistakes": ["No size of budgets or P&Ls.", "Generic \"prepared reports\" bullets.", "Leaving out Excel modeling depth (Power Query, macros, scenario models)."]
+    "mistakes": [
+      "No size of budgets or P&Ls.",
+      "Generic \"prepared reports\" bullets.",
+      "Leaving out Excel modeling depth (Power Query, macros, scenario models)."
+    ]
   },
   {
     "slug": "accountant",
     "title": "Accountant",
     "blurb": "Accounting ATS filters look for GAAP, close, reconciliation, and your ERP. Licenses like CPA are often hard filters, so state them exactly as the posting does.",
-    "hard": ["General Ledger", "Month-end Close", "Account Reconciliations", "Accounts Payable", "Accounts Receivable", "Journal Entries", "GAAP", "Financial Statements", "Audit", "Tax", "Accruals", "Internal Controls", "SOX"],
-    "tools": ["QuickBooks", "NetSuite", "SAP", "Oracle", "Excel", "BlackLine", "Workday"],
-    "soft": ["Attention to detail", "Organization", "Integrity", "Time management", "Communication"],
-    "certs": ["CPA", "CMA", "Bachelor's in Accounting"],
+    "hard": [
+      "General Ledger",
+      "Month-end Close",
+      "Account Reconciliations",
+      "Accounts Payable",
+      "Accounts Receivable",
+      "Journal Entries",
+      "GAAP",
+      "Financial Statements",
+      "Audit",
+      "Tax",
+      "Accruals",
+      "Internal Controls",
+      "SOX"
+    ],
+    "tools": [
+      "QuickBooks",
+      "NetSuite",
+      "SAP",
+      "Oracle",
+      "Excel",
+      "BlackLine",
+      "Workday"
+    ],
+    "soft": [
+      "Attention to detail",
+      "Organization",
+      "Integrity",
+      "Time management",
+      "Communication"
+    ],
+    "certs": [
+      "CPA",
+      "CMA",
+      "Bachelor's in Accounting"
+    ],
     "bullets": [
       "Cut month-end close from 10 days to 6 by standardizing reconciliations in BlackLine.",
       "Managed AP for 600 vendors and $45M annual spend with zero audit findings two years running.",
       "Documented SOX controls for revenue and payables, supporting a clean first-year audit."
     ],
-    "mistakes": ["Omitting the ERP name, often a hard filter.", "No close timeline or volume.", "Writing \"CPA eligible\" vaguely instead of exam status."]
+    "mistakes": [
+      "Omitting the ERP name, often a hard filter.",
+      "No close timeline or volume.",
+      "Writing \"CPA eligible\" vaguely instead of exam status."
+    ]
   },
   {
     "slug": "ux-designer",
     "title": "UX Designer",
     "blurb": "Design resumes still pass through an ATS before a portfolio review. Name your research methods, design tools, and the product metrics your work moved, and link the portfolio in plain text.",
-    "hard": ["User Experience", "User Research", "Usability Testing", "Wireframing", "Prototyping", "Information Architecture", "Interaction Design", "Design Systems", "Accessibility", "Journey Mapping", "UI Design", "A/B Testing"],
-    "tools": ["Figma", "FigJam", "Sketch", "Adobe XD", "Maze", "UserTesting", "Miro", "Framer"],
-    "soft": ["Empathy", "Collaboration", "Communication", "Storytelling", "Problem solving"],
-    "certs": ["Google UX Design Certificate", "NN/g UX Certification", "IAAP accessibility certification"],
+    "hard": [
+      "User Experience",
+      "User Research",
+      "Usability Testing",
+      "Wireframing",
+      "Prototyping",
+      "Information Architecture",
+      "Interaction Design",
+      "Design Systems",
+      "Accessibility",
+      "Journey Mapping",
+      "UI Design",
+      "A/B Testing"
+    ],
+    "tools": [
+      "Figma",
+      "FigJam",
+      "Sketch",
+      "Adobe XD",
+      "Maze",
+      "UserTesting",
+      "Miro",
+      "Framer"
+    ],
+    "soft": [
+      "Empathy",
+      "Collaboration",
+      "Communication",
+      "Storytelling",
+      "Problem solving"
+    ],
+    "certs": [
+      "Google UX Design Certificate",
+      "NN/g UX Certification",
+      "IAAP accessibility certification"
+    ],
     "bullets": [
       "Redesigned the checkout flow after 15 usability tests, raising completion from 61% to 78%.",
       "Built a Figma design system of 120 components adopted by 4 product teams, cutting design-to-dev time 30%.",
       "Led an accessibility audit and fixes that brought the app to WCAG 2.1 AA."
     ],
-    "mistakes": ["No portfolio link in plain text.", "Describing screens instead of user and business outcomes.", "Putting the resume in a graphic layout that an ATS cannot parse."]
+    "mistakes": [
+      "No portfolio link in plain text.",
+      "Describing screens instead of user and business outcomes.",
+      "Putting the resume in a graphic layout that an ATS cannot parse."
+    ]
   },
   {
     "slug": "recruiter",
     "title": "Recruiter",
     "blurb": "Recruiter resumes are judged on hiring volume, time-to-fill, and the roles you specialize in. Name your ATS and sourcing tools, since hiring teams filter on them.",
-    "hard": ["Full-cycle Recruiting", "Talent Acquisition", "Candidate Sourcing", "Boolean Search", "Interviewing", "Offer Negotiation", "Employer Branding", "Pipeline Management", "Time-to-fill", "Diversity Recruiting", "Hiring Manager Partnership", "Onboarding"],
-    "tools": ["Greenhouse", "Lever", "Workday", "iCIMS", "LinkedIn Recruiter", "Gem", "SeekOut", "Excel"],
-    "soft": ["Relationship building", "Communication", "Negotiation", "Organization", "Influence"],
-    "certs": ["SHRM-CP", "PHR", "AIRS Certified Internet Recruiter"],
+    "hard": [
+      "Full-cycle Recruiting",
+      "Talent Acquisition",
+      "Candidate Sourcing",
+      "Boolean Search",
+      "Interviewing",
+      "Offer Negotiation",
+      "Employer Branding",
+      "Pipeline Management",
+      "Time-to-fill",
+      "Diversity Recruiting",
+      "Hiring Manager Partnership",
+      "Onboarding"
+    ],
+    "tools": [
+      "Greenhouse",
+      "Lever",
+      "Workday",
+      "iCIMS",
+      "LinkedIn Recruiter",
+      "Gem",
+      "SeekOut",
+      "Excel"
+    ],
+    "soft": [
+      "Relationship building",
+      "Communication",
+      "Negotiation",
+      "Organization",
+      "Influence"
+    ],
+    "certs": [
+      "SHRM-CP",
+      "PHR",
+      "AIRS Certified Internet Recruiter"
+    ],
     "bullets": [
       "Hired 48 engineers in 12 months across 6 teams with a 34-day average time-to-fill against a 50-day benchmark.",
       "Built Boolean and Gem sourcing campaigns that raised outbound response rate from 12% to 31%.",
       "Partnered with 15 hiring managers to redesign interview loops, lifting offer acceptance from 72% to 89%."
     ],
-    "mistakes": ["No hiring volume or time-to-fill.", "Leaving out role types and seniority you recruit for.", "Missing the ATS name."]
+    "mistakes": [
+      "No hiring volume or time-to-fill.",
+      "Leaving out role types and seniority you recruit for.",
+      "Missing the ATS name."
+    ]
   },
   {
     "slug": "operations-manager",
     "title": "Operations Manager",
     "blurb": "Operations screens look for process improvement, team leadership, and cost or efficiency results. State the size of the team, budget, and operation you ran.",
-    "hard": ["Operations Management", "Process Improvement", "Lean", "Six Sigma", "Supply Chain", "Inventory Management", "Vendor Management", "Budget Management", "KPIs", "Capacity Planning", "SOPs", "Quality Assurance", "Logistics"],
-    "tools": ["Excel", "SAP", "Oracle", "NetSuite", "Tableau", "Smartsheet", "Asana"],
-    "soft": ["Leadership", "Problem solving", "Communication", "Decision making", "Coaching"],
-    "certs": ["Six Sigma Green Belt", "PMP", "APICS CSCP"],
+    "hard": [
+      "Operations Management",
+      "Process Improvement",
+      "Lean",
+      "Six Sigma",
+      "Supply Chain",
+      "Inventory Management",
+      "Vendor Management",
+      "Budget Management",
+      "KPIs",
+      "Capacity Planning",
+      "SOPs",
+      "Quality Assurance",
+      "Logistics"
+    ],
+    "tools": [
+      "Excel",
+      "SAP",
+      "Oracle",
+      "NetSuite",
+      "Tableau",
+      "Smartsheet",
+      "Asana"
+    ],
+    "soft": [
+      "Leadership",
+      "Problem solving",
+      "Communication",
+      "Decision making",
+      "Coaching"
+    ],
+    "certs": [
+      "Six Sigma Green Belt",
+      "PMP",
+      "APICS CSCP"
+    ],
     "bullets": [
       "Led a 35-person fulfillment team and raised on-time shipping from 88% to 98% while cutting overtime 25%.",
       "Renegotiated 6 vendor contracts for $640K in annual savings.",
       "Wrote 40 SOPs and a KPI dashboard that cut onboarding time for new hires from 4 weeks to 2."
     ],
-    "mistakes": ["No team size or budget.", "Process bullets with no efficiency number.", "Missing the methodology (Lean, Six Sigma) named in the posting."]
+    "mistakes": [
+      "No team size or budget.",
+      "Process bullets with no efficiency number.",
+      "Missing the methodology (Lean, Six Sigma) named in the posting."
+    ]
   },
   {
     "slug": "registered-nurse",
     "title": "Registered Nurse",
     "blurb": "Nursing ATS filters key on license, certifications, unit type, and EHR system. Put your RN license and certifications near the top, exactly as the posting names them.",
-    "hard": ["Patient Care", "Patient Assessment", "Medication Administration", "Care Planning", "Patient Education", "Infection Control", "Telemetry", "Critical Care", "Triage", "Discharge Planning", "Clinical Documentation", "HIPAA"],
-    "tools": ["Epic", "Cerner", "Meditech", "Pyxis", "IV pumps"],
-    "soft": ["Compassion", "Communication", "Critical thinking", "Teamwork", "Composure under pressure"],
-    "certs": ["RN license", "BLS", "ACLS", "PALS", "CCRN", "BSN"],
+    "hard": [
+      "Patient Care",
+      "Patient Assessment",
+      "Medication Administration",
+      "Care Planning",
+      "Patient Education",
+      "Infection Control",
+      "Telemetry",
+      "Critical Care",
+      "Triage",
+      "Discharge Planning",
+      "Clinical Documentation",
+      "HIPAA"
+    ],
+    "tools": [
+      "Epic",
+      "Cerner",
+      "Meditech",
+      "Pyxis",
+      "IV pumps"
+    ],
+    "soft": [
+      "Compassion",
+      "Communication",
+      "Critical thinking",
+      "Teamwork",
+      "Composure under pressure"
+    ],
+    "certs": [
+      "RN license",
+      "BLS",
+      "ACLS",
+      "PALS",
+      "CCRN",
+      "BSN"
+    ],
     "bullets": [
       "Provided care for 5 to 6 telemetry patients per shift on a 32-bed cardiac unit.",
       "Led a fall-prevention initiative that cut unit falls 40% over 6 months.",
       "Precepted 8 new graduate nurses with a 100% one-year retention rate."
     ],
-    "mistakes": ["License and certifications buried at the bottom.", "No unit type, bed count, or patient ratio.", "Missing the EHR system named in the posting."]
+    "mistakes": [
+      "License and certifications buried at the bottom.",
+      "No unit type, bed count, or patient ratio.",
+      "Missing the EHR system named in the posting."
+    ]
   },
   {
     "slug": "administrative-assistant",
     "title": "Administrative Assistant",
     "blurb": "Administrative postings filter on office software, scheduling, and communication skills. Quantify how many people, calendars, or events you supported.",
-    "hard": ["Calendar Management", "Scheduling", "Travel Coordination", "Data Entry", "Document Management", "Expense Reports", "Event Planning", "Office Management", "Customer Service", "Record Keeping", "Meeting Minutes"],
-    "tools": ["Microsoft Office", "Excel", "Outlook", "Google Workspace", "Zoom", "Slack", "QuickBooks", "Concur"],
-    "soft": ["Organization", "Communication", "Attention to detail", "Time management", "Discretion"],
-    "certs": ["Microsoft Office Specialist (MOS)", "Certified Administrative Professional (CAP)"],
+    "hard": [
+      "Calendar Management",
+      "Scheduling",
+      "Travel Coordination",
+      "Data Entry",
+      "Document Management",
+      "Expense Reports",
+      "Event Planning",
+      "Office Management",
+      "Customer Service",
+      "Record Keeping",
+      "Meeting Minutes"
+    ],
+    "tools": [
+      "Microsoft Office",
+      "Excel",
+      "Outlook",
+      "Google Workspace",
+      "Zoom",
+      "Slack",
+      "QuickBooks",
+      "Concur"
+    ],
+    "soft": [
+      "Organization",
+      "Communication",
+      "Attention to detail",
+      "Time management",
+      "Discretion"
+    ],
+    "certs": [
+      "Microsoft Office Specialist (MOS)",
+      "Certified Administrative Professional (CAP)"
+    ],
     "bullets": [
       "Managed calendars and travel for 4 executives, coordinating 60+ meetings a week across 3 time zones.",
       "Rebuilt the expense process in Concur, cutting reimbursement time from 3 weeks to 5 days.",
       "Planned 12 company events a year for up to 200 attendees, finishing 10% under budget."
     ],
-    "mistakes": ["Duties with no volume or scope.", "Skipping software proficiency.", "Generic soft-skill claims with no evidence."]
+    "mistakes": [
+      "Duties with no volume or scope.",
+      "Skipping software proficiency.",
+      "Generic soft-skill claims with no evidence."
+    ]
+  },
+  {
+    "slug": "sales-development-representative",
+    "title": "Sales Development Representative",
+    "blurb": "SDR screens are about activity and conversion: meetings booked, pipeline sourced, and the outbound stack you used. Quantify everything per month or quarter.",
+    "hard": [
+      "Prospecting",
+      "Cold Calling",
+      "Cold Email",
+      "Lead Qualification",
+      "Pipeline Generation",
+      "Outbound",
+      "Discovery Calls",
+      "Objection Handling",
+      "Sequencing",
+      "CRM Hygiene",
+      "BANT",
+      "Account Research"
+    ],
+    "tools": [
+      "Salesforce",
+      "HubSpot",
+      "Outreach.io",
+      "Salesloft",
+      "LinkedIn Sales Navigator",
+      "ZoomInfo",
+      "Apollo.io",
+      "Gong"
+    ],
+    "soft": [
+      "Resilience",
+      "Communication",
+      "Coachability",
+      "Time management",
+      "Curiosity"
+    ],
+    "certs": [
+      "Sandler Training",
+      "Challenger Sale"
+    ],
+    "bullets": [
+      "Booked 18 qualified meetings a month at 140% of target, sourcing $1.1M in pipeline in 2025.",
+      "Built a 6-step Outreach sequence with a 14% reply rate, double the team average.",
+      "Ranked #1 of 12 SDRs for two straight quarters and was promoted to AE in 14 months."
+    ],
+    "mistakes": [
+      "No monthly meeting or pipeline numbers.",
+      "Leaving out the tools you prospected with.",
+      "Listing 'cold calling' without volume or conversion."
+    ]
+  },
+  {
+    "slug": "customer-service-representative",
+    "title": "Customer Service Representative",
+    "blurb": "Support resumes are screened for volume, satisfaction scores, and the helpdesk tools you know. Give numbers for tickets, CSAT, and response times.",
+    "hard": [
+      "Customer Service",
+      "Ticket Resolution",
+      "Phone Support",
+      "Live Chat",
+      "Email Support",
+      "De-escalation",
+      "First Contact Resolution",
+      "CSAT",
+      "Order Management",
+      "Troubleshooting",
+      "Knowledge Base"
+    ],
+    "tools": [
+      "Zendesk",
+      "Salesforce Service Cloud",
+      "Freshdesk",
+      "Intercom",
+      "Gorgias",
+      "Shopify",
+      "Excel"
+    ],
+    "soft": [
+      "Empathy",
+      "Patience",
+      "Communication",
+      "Problem solving",
+      "Composure under pressure"
+    ],
+    "certs": [
+      "HDI Customer Service Representative",
+      "Zendesk certification"
+    ],
+    "bullets": [
+      "Resolved 70+ tickets a day across chat, phone, and email with a 96% CSAT score.",
+      "Cut average first response time from 4 hours to 45 minutes by building 30 macros.",
+      "Wrote 25 help center articles that reduced repeat tickets on billing questions 18%."
+    ],
+    "mistakes": [
+      "No ticket volume or CSAT numbers.",
+      "Missing the helpdesk software name.",
+      "Generic 'helped customers' bullets."
+    ]
+  },
+  {
+    "slug": "executive-assistant",
+    "title": "Executive Assistant",
+    "blurb": "Executive assistant screens focus on scope: how senior the executives were, how many you supported, and how complex the calendars, travel, and projects were.",
+    "hard": [
+      "Calendar Management",
+      "Executive Support",
+      "Travel Planning",
+      "Board Meeting Preparation",
+      "Expense Management",
+      "Event Planning",
+      "Confidentiality",
+      "Project Coordination",
+      "Gatekeeping",
+      "Correspondence",
+      "Prioritization"
+    ],
+    "tools": [
+      "Google Workspace",
+      "Microsoft Office",
+      "Outlook",
+      "Concur",
+      "Expensify",
+      "Zoom",
+      "Slack",
+      "Asana",
+      "Notion"
+    ],
+    "soft": [
+      "Discretion",
+      "Anticipation",
+      "Organization",
+      "Communication",
+      "Judgment"
+    ],
+    "certs": [
+      "Certified Administrative Professional (CAP)",
+      "Microsoft Office Specialist"
+    ],
+    "bullets": [
+      "Supported the CEO and 2 SVPs of a 600-person company, managing 50+ meetings a week across 4 time zones.",
+      "Planned quarterly board meetings and an 80-person offsite on time and 12% under budget.",
+      "Built an Asana system for executive follow-ups that cut missed action items to zero over two quarters."
+    ],
+    "mistakes": [
+      "No title or seniority of the executives supported.",
+      "Leaving out volume and complexity.",
+      "No proof of discretion or judgment."
+    ]
+  },
+  {
+    "slug": "content-marketing-manager",
+    "title": "Content Marketing Manager",
+    "blurb": "Content roles are screened for strategy plus results: traffic, rankings, leads, and the publishing cadence you ran. Show the business outcome of content, not just the pieces.",
+    "hard": [
+      "Content Strategy",
+      "Content Marketing",
+      "SEO",
+      "Editorial Calendar",
+      "Copywriting",
+      "Editing",
+      "Thought Leadership",
+      "Lead Generation",
+      "Content Distribution",
+      "Keyword Research",
+      "Brand Voice",
+      "Analytics"
+    ],
+    "tools": [
+      "WordPress",
+      "HubSpot",
+      "Google Analytics",
+      "Ahrefs",
+      "SEMrush",
+      "Google Search Console",
+      "Canva",
+      "Figma"
+    ],
+    "soft": [
+      "Storytelling",
+      "Collaboration",
+      "Project management",
+      "Attention to detail",
+      "Creativity"
+    ],
+    "certs": [
+      "HubSpot Content Marketing Certification",
+      "Google Analytics Certification"
+    ],
+    "bullets": [
+      "Built a content program from zero to 120K monthly organic visits in 14 months, sourcing 30% of inbound demos.",
+      "Ran an editorial calendar of 12 posts a month with 5 freelance writers, on time every month.",
+      "Launched a quarterly research report that earned 90 backlinks and 1,400 leads."
+    ],
+    "mistakes": [
+      "Counting posts instead of results.",
+      "No traffic, ranking, or lead numbers.",
+      "Leaving out SEO tools."
+    ]
+  },
+  {
+    "slug": "social-media-manager",
+    "title": "Social Media Manager",
+    "blurb": "Social roles are screened for platform expertise, growth, engagement, and business results. Name each platform and the numbers you moved on it.",
+    "hard": [
+      "Social Media Strategy",
+      "Content Creation",
+      "Community Management",
+      "Paid Social",
+      "Influencer Marketing",
+      "Social Listening",
+      "Engagement",
+      "Short-form Video",
+      "Content Calendar",
+      "Analytics",
+      "Brand Voice"
+    ],
+    "tools": [
+      "Instagram",
+      "TikTok",
+      "LinkedIn",
+      "Meta Business Suite",
+      "Sprout Social",
+      "Hootsuite",
+      "Canva",
+      "CapCut",
+      "Later"
+    ],
+    "soft": [
+      "Creativity",
+      "Trend awareness",
+      "Communication",
+      "Adaptability",
+      "Attention to detail"
+    ],
+    "certs": [
+      "Meta Certified Community Manager",
+      "Hootsuite Social Marketing Certification"
+    ],
+    "bullets": [
+      "Grew TikTok from 0 to 85K followers in 9 months; 3 videos passed 1M views.",
+      "Raised Instagram engagement rate from 1.2% to 4.8% with a new Reels-first content mix.",
+      "Managed $25K a month in Meta ads at a 3.2x ROAS."
+    ],
+    "mistakes": [
+      "Follower counts with no time frame.",
+      "No link from social to traffic or sales.",
+      "Missing the scheduling and analytics tools."
+    ]
+  },
+  {
+    "slug": "seo-specialist",
+    "title": "SEO Specialist",
+    "blurb": "SEO screens look for technical depth, content strategy, and ranking and traffic results. Name your tools and the size of sites you worked on.",
+    "hard": [
+      "SEO",
+      "Technical SEO",
+      "Keyword Research",
+      "On-page Optimization",
+      "Link Building",
+      "Site Audits",
+      "Schema Markup",
+      "Content Optimization",
+      "Core Web Vitals",
+      "Local SEO",
+      "Search Intent"
+    ],
+    "tools": [
+      "Google Search Console",
+      "Google Analytics",
+      "Ahrefs",
+      "SEMrush",
+      "Screaming Frog",
+      "Moz",
+      "WordPress",
+      "Looker Studio"
+    ],
+    "soft": [
+      "Analytical thinking",
+      "Communication",
+      "Curiosity",
+      "Attention to detail",
+      "Collaboration"
+    ],
+    "certs": [
+      "Google Analytics Certification",
+      "SEMrush SEO Toolkit certification"
+    ],
+    "bullets": [
+      "Grew organic traffic 210% in 12 months for a 4,000-page e-commerce site through a technical audit and internal linking.",
+      "Took 45 target keywords from page 3 to the top 5, adding $380K in organic revenue.",
+      "Fixed Core Web Vitals across 1,200 templates, passing all three metrics for the first time."
+    ],
+    "mistakes": [
+      "No traffic or revenue results.",
+      "Missing technical SEO tools.",
+      "No site size or industry context."
+    ]
+  },
+  {
+    "slug": "data-engineer",
+    "title": "Data Engineer",
+    "blurb": "Data engineering screens key on pipeline tools, warehouses, and scale. Name the stack exactly and quantify data volume, latency, and reliability.",
+    "hard": [
+      "Data Pipelines",
+      "ETL",
+      "Data Modeling",
+      "Data Warehousing",
+      "Batch Processing",
+      "Streaming",
+      "Data Quality",
+      "Orchestration",
+      "SQL",
+      "Distributed Systems",
+      "Data Governance",
+      "CI/CD"
+    ],
+    "tools": [
+      "Python",
+      "SQL",
+      "Spark",
+      "Airflow",
+      "dbt",
+      "Snowflake",
+      "BigQuery",
+      "Kafka",
+      "AWS",
+      "Databricks",
+      "Terraform",
+      "Docker"
+    ],
+    "soft": [
+      "Ownership",
+      "Problem solving",
+      "Collaboration",
+      "Communication",
+      "Attention to detail"
+    ],
+    "certs": [
+      "Google Professional Data Engineer",
+      "AWS Certified Data Engineer",
+      "Databricks Certified Data Engineer"
+    ],
+    "bullets": [
+      "Built Airflow and dbt pipelines processing 2TB a day into Snowflake with 99.9% on-time delivery.",
+      "Migrated 140 legacy ETL jobs to Spark, cutting compute cost 38% and runtime from 6 hours to 50 minutes.",
+      "Added data quality tests that caught 95% of upstream schema breaks before they hit dashboards."
+    ],
+    "mistakes": [
+      "No data volume or latency numbers.",
+      "Tool lists with no architecture context.",
+      "Missing reliability or cost results."
+    ]
+  },
+  {
+    "slug": "devops-engineer",
+    "title": "DevOps Engineer",
+    "blurb": "DevOps and SRE screens look for cloud, infrastructure as code, CI/CD, and reliability metrics. Show uptime, deploy frequency, and cost results.",
+    "hard": [
+      "CI/CD",
+      "Infrastructure as Code",
+      "Cloud Infrastructure",
+      "Containerization",
+      "Kubernetes",
+      "Monitoring",
+      "Incident Response",
+      "Automation",
+      "Site Reliability",
+      "Linux",
+      "Networking",
+      "Security"
+    ],
+    "tools": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Terraform",
+      "Docker",
+      "Kubernetes",
+      "GitHub Actions",
+      "Jenkins",
+      "Prometheus",
+      "Grafana",
+      "Ansible",
+      "Datadog"
+    ],
+    "soft": [
+      "Ownership",
+      "Problem solving",
+      "Collaboration",
+      "Calm under pressure",
+      "Communication"
+    ],
+    "certs": [
+      "AWS Certified DevOps Engineer",
+      "Certified Kubernetes Administrator (CKA)",
+      "HashiCorp Terraform Associate"
+    ],
+    "bullets": [
+      "Moved 60 services to Kubernetes on EKS with Terraform, raising deploy frequency from weekly to 30+ a day.",
+      "Cut AWS spend 31% ($420K a year) with rightsizing, spot instances, and autoscaling.",
+      "Built Prometheus and Grafana alerting that cut mean time to recovery from 2 hours to 18 minutes."
+    ],
+    "mistakes": [
+      "No uptime, MTTR, or deploy metrics.",
+      "Missing the cloud provider named in the posting.",
+      "Listing tools without scale."
+    ]
+  },
+  {
+    "slug": "frontend-developer",
+    "title": "Frontend Developer",
+    "blurb": "Frontend screens match on framework, language, and tooling, then look for performance, accessibility, and product impact.",
+    "hard": [
+      "Frontend Development",
+      "Responsive Design",
+      "Accessibility",
+      "Web Performance",
+      "Component Libraries",
+      "State Management",
+      "Unit Testing",
+      "REST APIs",
+      "Cross-browser Compatibility",
+      "Design Systems",
+      "Code Review"
+    ],
+    "tools": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Vue.js",
+      "HTML",
+      "CSS",
+      "Tailwind",
+      "Jest",
+      "Cypress",
+      "Webpack",
+      "Git"
+    ],
+    "soft": [
+      "Collaboration",
+      "Attention to detail",
+      "Ownership",
+      "Communication",
+      "Problem solving"
+    ],
+    "certs": [
+      "Meta Front-End Developer Certificate",
+      "Bachelor's in Computer Science or equivalent"
+    ],
+    "bullets": [
+      "Rebuilt the checkout in React and TypeScript, cutting load time 45% and lifting conversion 6%.",
+      "Built a component library of 80 accessible components used across 5 product teams.",
+      "Raised Lighthouse performance from 52 to 94 on the marketing site with code splitting and image optimization."
+    ],
+    "mistakes": [
+      "No performance or business numbers.",
+      "Missing the framework named in the posting.",
+      "No portfolio or GitHub link."
+    ]
+  },
+  {
+    "slug": "product-designer",
+    "title": "Product Designer",
+    "blurb": "Product design resumes are screened for end-to-end ownership, research, systems thinking, and measurable product outcomes, plus a portfolio link.",
+    "hard": [
+      "Product Design",
+      "User Research",
+      "Interaction Design",
+      "Prototyping",
+      "Usability Testing",
+      "Design Systems",
+      "Information Architecture",
+      "Visual Design",
+      "Accessibility",
+      "Journey Mapping",
+      "A/B Testing"
+    ],
+    "tools": [
+      "Figma",
+      "FigJam",
+      "Framer",
+      "Maze",
+      "Dovetail",
+      "Miro",
+      "Adobe Creative Suite",
+      "Jira"
+    ],
+    "soft": [
+      "Collaboration",
+      "Storytelling",
+      "Empathy",
+      "Communication",
+      "Systems thinking"
+    ],
+    "certs": [
+      "NN/g UX Certification",
+      "Google UX Design Certificate"
+    ],
+    "bullets": [
+      "Led design of a new onboarding flow from research to launch, lifting activation 22%.",
+      "Built and maintained a Figma design system of 150 components used by 30 engineers.",
+      "Ran 40 usability sessions that reshaped the roadmap for a $5M ARR product line."
+    ],
+    "mistakes": [
+      "No portfolio link.",
+      "Screens described without outcomes.",
+      "Missing research methods."
+    ]
+  },
+  {
+    "slug": "qa-engineer",
+    "title": "QA Engineer",
+    "blurb": "QA screens look for automation frameworks, test strategy, and quality metrics. Show coverage, defect rates, and release speed.",
+    "hard": [
+      "Test Automation",
+      "Manual Testing",
+      "Regression Testing",
+      "Test Plans",
+      "API Testing",
+      "Performance Testing",
+      "Bug Tracking",
+      "CI/CD",
+      "Agile",
+      "End-to-End Testing",
+      "Quality Assurance"
+    ],
+    "tools": [
+      "Selenium",
+      "Cypress",
+      "Playwright",
+      "Postman",
+      "Jest",
+      "JIRA",
+      "TestRail",
+      "Python",
+      "Java",
+      "GitHub Actions"
+    ],
+    "soft": [
+      "Attention to detail",
+      "Communication",
+      "Curiosity",
+      "Collaboration",
+      "Problem solving"
+    ],
+    "certs": [
+      "ISTQB Certified Tester",
+      "Certified Software Quality Engineer (CSQE)"
+    ],
+    "bullets": [
+      "Built a Playwright suite of 900 end-to-end tests running in CI, cutting regression time from 3 days to 40 minutes.",
+      "Reduced escaped production defects 60% in two quarters by adding API contract tests.",
+      "Raised automated coverage of critical flows from 35% to 92%."
+    ],
+    "mistakes": [
+      "No coverage or defect numbers.",
+      "Missing the automation framework.",
+      "Only manual testing listed for automation roles."
+    ]
+  },
+  {
+    "slug": "it-support-specialist",
+    "title": "IT Support Specialist",
+    "blurb": "IT support resumes are screened for systems, ticket volume, and certifications. Name the operating systems, tools, and environments you supported.",
+    "hard": [
+      "Technical Support",
+      "Help Desk",
+      "Troubleshooting",
+      "Hardware Support",
+      "Active Directory",
+      "Networking",
+      "User Onboarding",
+      "Ticketing",
+      "Device Management",
+      "Windows",
+      "macOS",
+      "Security"
+    ],
+    "tools": [
+      "Microsoft 365",
+      "Active Directory",
+      "Jamf",
+      "Intune",
+      "ServiceNow",
+      "Jira Service Management",
+      "Okta",
+      "Google Workspace"
+    ],
+    "soft": [
+      "Patience",
+      "Communication",
+      "Problem solving",
+      "Customer focus",
+      "Organization"
+    ],
+    "certs": [
+      "CompTIA A+",
+      "CompTIA Network+",
+      "Microsoft 365 Certified"
+    ],
+    "bullets": [
+      "Resolved 40+ tickets a day for 500 employees with a 98% satisfaction score.",
+      "Automated laptop provisioning with Intune, cutting new-hire setup from 4 hours to 30 minutes.",
+      "Rolled out Okta SSO to 30 apps with zero downtime."
+    ],
+    "mistakes": [
+      "No ticket volume or user count.",
+      "Missing certifications.",
+      "Leaving out device management tools."
+    ]
+  },
+  {
+    "slug": "cybersecurity-analyst",
+    "title": "Cybersecurity Analyst",
+    "blurb": "Security screens filter heavily on certifications, tools, and frameworks. Show incidents handled, vulnerabilities closed, and compliance work.",
+    "hard": [
+      "Threat Detection",
+      "Incident Response",
+      "Vulnerability Management",
+      "SIEM",
+      "Security Monitoring",
+      "Risk Assessment",
+      "Penetration Testing",
+      "Network Security",
+      "Identity and Access Management",
+      "Compliance",
+      "Threat Intelligence"
+    ],
+    "tools": [
+      "Splunk",
+      "CrowdStrike",
+      "Palo Alto",
+      "Wireshark",
+      "Nessus",
+      "Microsoft Sentinel",
+      "Okta",
+      "AWS"
+    ],
+    "soft": [
+      "Analytical thinking",
+      "Calm under pressure",
+      "Communication",
+      "Attention to detail",
+      "Integrity"
+    ],
+    "certs": [
+      "Security+",
+      "CISSP",
+      "CySA+",
+      "CEH",
+      "GIAC GSEC"
+    ],
+    "bullets": [
+      "Triaged 300+ SIEM alerts a week in Splunk and cut false positives 45% by tuning detection rules.",
+      "Led response for 12 security incidents with no data loss and a 2-hour average containment time.",
+      "Drove remediation of 1,800 critical vulnerabilities to meet a SOC 2 audit deadline."
+    ],
+    "mistakes": [
+      "Certifications buried at the bottom.",
+      "No incident or vulnerability numbers.",
+      "Missing frameworks (NIST, SOC 2, ISO 27001)."
+    ]
+  },
+  {
+    "slug": "hr-generalist",
+    "title": "HR Generalist",
+    "blurb": "HR generalist screens look for breadth across employee relations, benefits, onboarding, and compliance, plus the HRIS you have run.",
+    "hard": [
+      "Employee Relations",
+      "Onboarding",
+      "Benefits Administration",
+      "HR Compliance",
+      "Performance Management",
+      "Policy Development",
+      "Payroll",
+      "Recruiting",
+      "Employee Engagement",
+      "Investigations",
+      "Offboarding"
+    ],
+    "tools": [
+      "Workday",
+      "BambooHR",
+      "ADP",
+      "Rippling",
+      "Gusto",
+      "Greenhouse",
+      "Excel",
+      "Lattice"
+    ],
+    "soft": [
+      "Discretion",
+      "Communication",
+      "Empathy",
+      "Judgment",
+      "Organization"
+    ],
+    "certs": [
+      "SHRM-CP",
+      "PHR",
+      "aPHR"
+    ],
+    "bullets": [
+      "Supported 350 employees across 3 states as the sole HR generalist, handling relations, benefits, and compliance.",
+      "Rebuilt onboarding in BambooHR, raising 90-day retention from 81% to 93%.",
+      "Led open enrollment for 400 employees with a 99% completion rate."
+    ],
+    "mistakes": [
+      "No employee count or scope.",
+      "Missing the HRIS name.",
+      "No compliance or policy examples."
+    ]
+  },
+  {
+    "slug": "supply-chain-analyst",
+    "title": "Supply Chain Analyst",
+    "blurb": "Supply chain screens look for forecasting, inventory, and ERP skills, plus cost and service-level results.",
+    "hard": [
+      "Supply Chain",
+      "Demand Planning",
+      "Inventory Management",
+      "Forecasting",
+      "Procurement",
+      "Logistics",
+      "S&OP",
+      "Data Analysis",
+      "Vendor Management",
+      "Cost Reduction",
+      "KPIs"
+    ],
+    "tools": [
+      "SAP",
+      "Oracle",
+      "NetSuite",
+      "Excel",
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "Kinaxis"
+    ],
+    "soft": [
+      "Analytical thinking",
+      "Communication",
+      "Problem solving",
+      "Attention to detail",
+      "Collaboration"
+    ],
+    "certs": [
+      "APICS CPIM",
+      "APICS CSCP",
+      "Six Sigma Green Belt"
+    ],
+    "bullets": [
+      "Built a SKU-level demand forecast that cut forecast error from 32% to 18% across 1,400 SKUs.",
+      "Reduced excess inventory $2.3M while holding a 97% fill rate.",
+      "Automated weekly supply reports in Power BI, saving 10 hours a week."
+    ],
+    "mistakes": [
+      "No inventory, cost, or service-level numbers.",
+      "Missing the ERP.",
+      "Generic 'analyzed data' bullets."
+    ]
+  },
+  {
+    "slug": "teacher",
+    "title": "Teacher",
+    "blurb": "Teaching resumes still pass through school district ATS systems. Lead with certification, grade levels, subjects, and student outcomes.",
+    "hard": [
+      "Lesson Planning",
+      "Classroom Management",
+      "Differentiated Instruction",
+      "Curriculum Development",
+      "Student Assessment",
+      "Common Core",
+      "IEP",
+      "Parent Communication",
+      "Data-driven Instruction",
+      "Social-Emotional Learning",
+      "Educational Technology"
+    ],
+    "tools": [
+      "Google Classroom",
+      "Canvas",
+      "Schoology",
+      "Nearpod",
+      "Kahoot",
+      "Seesaw",
+      "Microsoft Office"
+    ],
+    "soft": [
+      "Patience",
+      "Communication",
+      "Adaptability",
+      "Empathy",
+      "Organization"
+    ],
+    "certs": [
+      "State teaching certification",
+      "ESL or ELL endorsement",
+      "Special education endorsement"
+    ],
+    "bullets": [
+      "Raised the share of students meeting grade-level reading benchmarks from 54% to 78% in one year.",
+      "Taught 5 sections of 8th-grade math (130 students) using differentiated small-group instruction.",
+      "Built a project-based science unit adopted by 6 teachers across the district."
+    ],
+    "mistakes": [
+      "Certification not near the top.",
+      "No student outcome data.",
+      "Missing grade levels and subjects."
+    ]
+  },
+  {
+    "slug": "program-manager",
+    "title": "Program Manager",
+    "blurb": "Program manager screens look for cross-team scope, delivery of complex initiatives, and metrics. Show the number of teams, budget, and business result.",
+    "hard": [
+      "Program Management",
+      "Cross-functional Leadership",
+      "Roadmap Planning",
+      "Risk Management",
+      "Stakeholder Management",
+      "Budget Management",
+      "Agile",
+      "Dependency Management",
+      "OKRs",
+      "Executive Reporting",
+      "Process Improvement"
+    ],
+    "tools": [
+      "Jira",
+      "Confluence",
+      "Smartsheet",
+      "Asana",
+      "Monday.com",
+      "Excel",
+      "Tableau"
+    ],
+    "soft": [
+      "Leadership",
+      "Communication",
+      "Influence",
+      "Organization",
+      "Decision making"
+    ],
+    "certs": [
+      "PMP",
+      "PgMP",
+      "Certified ScrumMaster (CSM)",
+      "SAFe Agilist"
+    ],
+    "bullets": [
+      "Led a 9-team, $6M platform migration delivered on schedule, retiring 3 legacy systems.",
+      "Built quarterly OKR and dependency planning across 14 teams, cutting blocked work 35%.",
+      "Ran weekly executive reviews for the CTO that surfaced risks an average of 3 weeks earlier."
+    ],
+    "mistakes": [
+      "No team count or budget.",
+      "Describing meetings instead of outcomes.",
+      "Missing methodology from the posting."
+    ]
+  },
+  {
+    "slug": "brand-manager",
+    "title": "Brand Manager",
+    "blurb": "Brand management screens look for P&L ownership, campaign results, and consumer insight. Show market share, revenue, and the brands you managed.",
+    "hard": [
+      "Brand Management",
+      "Brand Strategy",
+      "Consumer Insights",
+      "Go-to-Market",
+      "P&L Management",
+      "Product Launches",
+      "Integrated Marketing",
+      "Market Research",
+      "Agency Management",
+      "Positioning",
+      "Packaging"
+    ],
+    "tools": [
+      "Nielsen",
+      "Circana (IRI)",
+      "Excel",
+      "PowerPoint",
+      "Qualtrics",
+      "Google Analytics",
+      "Meta Ads"
+    ],
+    "soft": [
+      "Leadership",
+      "Strategic thinking",
+      "Creativity",
+      "Communication",
+      "Collaboration"
+    ],
+    "certs": [
+      "MBA (often preferred)"
+    ],
+    "bullets": [
+      "Owned a $45M brand P&L and grew net sales 12% while holding margin.",
+      "Launched 3 new SKUs that reached $6M in first-year sales and 2 points of category share.",
+      "Led an integrated campaign with 2 agencies that lifted aided awareness from 31% to 44%."
+    ],
+    "mistakes": [
+      "No P&L or revenue figures.",
+      "Missing consumer research methods.",
+      "Campaign bullets without business results."
+    ]
+  },
+  {
+    "slug": "email-marketing-specialist",
+    "title": "Email Marketing Specialist",
+    "blurb": "Email roles are screened on your ESP, segmentation, automation, and revenue results. The platform name is often a hard filter.",
+    "hard": [
+      "Email Marketing",
+      "Marketing Automation",
+      "Segmentation",
+      "A/B Testing",
+      "Deliverability",
+      "Personalization",
+      "Drip Campaigns",
+      "List Growth",
+      "HTML Email",
+      "Lifecycle Marketing",
+      "Copywriting"
+    ],
+    "tools": [
+      "Klaviyo",
+      "Mailchimp",
+      "HubSpot",
+      "Braze",
+      "Iterable",
+      "Salesforce Marketing Cloud",
+      "Litmus",
+      "Google Analytics"
+    ],
+    "soft": [
+      "Attention to detail",
+      "Creativity",
+      "Analytical thinking",
+      "Communication",
+      "Organization"
+    ],
+    "certs": [
+      "Klaviyo Product Certificate",
+      "HubSpot Email Marketing Certification"
+    ],
+    "bullets": [
+      "Built Klaviyo flows (welcome, browse, cart, post-purchase) that drove 32% of e-commerce revenue.",
+      "Raised inbox placement from 82% to 97% by fixing authentication and sunsetting inactive subscribers.",
+      "Ran 50 A/B tests a year, lifting click rate from 2.4% to 3.9%."
+    ],
+    "mistakes": [
+      "Opens and clicks with no revenue.",
+      "Missing the ESP.",
+      "No deliverability work."
+    ]
+  },
+  {
+    "slug": "revenue-operations-manager",
+    "title": "Revenue Operations Manager",
+    "blurb": "RevOps screens look for CRM architecture, forecasting, and go-to-market process ownership across sales, marketing, and success.",
+    "hard": [
+      "Revenue Operations",
+      "Sales Operations",
+      "CRM Administration",
+      "Forecasting",
+      "Pipeline Management",
+      "Lead Routing",
+      "Territory Planning",
+      "Compensation Planning",
+      "Reporting",
+      "Process Improvement",
+      "Attribution"
+    ],
+    "tools": [
+      "Salesforce",
+      "HubSpot",
+      "Gong",
+      "Clari",
+      "Outreach.io",
+      "ZoomInfo",
+      "Tableau",
+      "Looker",
+      "Excel"
+    ],
+    "soft": [
+      "Analytical thinking",
+      "Influence",
+      "Communication",
+      "Problem solving",
+      "Ownership"
+    ],
+    "certs": [
+      "Salesforce Certified Administrator",
+      "HubSpot Revenue Operations Certification"
+    ],
+    "bullets": [
+      "Rebuilt Salesforce lead routing, cutting speed-to-lead from 9 hours to 12 minutes and lifting meeting rate 26%.",
+      "Built the forecast model the CRO used for board reporting, accurate within 4% for 6 quarters.",
+      "Designed territories and comp plans for a 60-rep team, raising quota attainment from 58% to 71%."
+    ],
+    "mistakes": [
+      "No pipeline, forecast, or efficiency numbers.",
+      "Missing the CRM.",
+      "Admin tasks without business impact."
+    ]
   }
 ]

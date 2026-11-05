@@ -18,10 +18,19 @@ e = html.escape
 pages = []  # (path, priority) for the sitemap
 
 
+from datetime import datetime, timezone
+LAUNCH = bool(site.get("launch_code")) and datetime.fromisoformat(site.get("launch_ends", "2000-01-01T00:00:00+00:00")) > datetime.now(timezone.utc)
+LAUNCH_ENDS_TXT = datetime.fromisoformat(site["launch_ends"]).strftime("%B %-d") if LAUNCH else ""
+
+
 def kit_buy_button(label=None, cls="btn primary big"):
+    if LAUNCH and not label:
+        label = f"Get {site['kit_name']}, {site['launch_price']} (launch price)"
     label = label or f"Get {site['kit_name']}, {site['kit_price']}"
     if site.get("kit_url"):
-        return f'<a class="{cls}" href="{e(site["kit_url"])}" data-track="buy">{e(label)}</a>'
+        href = site["kit_url"] + ("/" + site["launch_code"] if LAUNCH else "")
+        return (f'<a class="{cls}" href="{e(href)}" data-track="buy" data-full="{e(site["kit_url"])}" '
+                f'data-full-label="{e("Get " + site["kit_name"] + ", " + site["kit_price"])}">{e(label)}</a>')
     if site.get("support_email"):
         return f'<a class="{cls}" href="mailto:{e(site["support_email"])}?subject=Notify%20me%20when%20the%20kit%20launches">Get notified at launch</a>'
     return f'<span class="{cls}" aria-disabled="true">Launching soon</span>'
@@ -66,6 +75,9 @@ def layout(path, title, description, body, depth, schema=None, active="", root=N
 <footer class="site"><div class="wrap"><div>&copy; {site['year']} {e(NAME)}. Your resume never leaves your browser.</div>
 <div class="row"><a href="{root}privacy/">Privacy</a><a href="{root}jobscan-alternative/">Free Jobscan alternative</a><a href="{root}keywords/">Resume keywords</a></div></div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>(function(){{var end=Date.parse("{site.get('launch_ends','')}");if(!end||Date.now()<end)return;
+document.querySelectorAll("[data-full]").forEach(function(a){{a.href=a.getAttribute("data-full");a.textContent=a.getAttribute("data-full-label");}});
+document.querySelectorAll(".launch").forEach(function(x){{x.style.display="none";}});}})();</script>
 {gc}
 </body>
 </html>
@@ -101,7 +113,8 @@ if DIST.exists():
     shutil.rmtree(DIST)
 shutil.copytree(SRC / "assets", DIST / "assets")
 example = {"resume": (ROOT / "tests/fixtures/resume.txt").read_text(), "jd": (ROOT / "tests/fixtures/jd.txt").read_text()}
-kit_js = {"name": site["kit_name"], "price": site["kit_price"], "url": site.get("kit_url", ""), "page": "kit/"}
+kit_js = {"name": site["kit_name"], "price": site["kit_price"], "url": site.get("kit_url", ""), "page": "kit/",
+          "launch_price": site.get("launch_price", "") if LAUNCH else "", "launch_ends": site.get("launch_ends", ""), "free_url": site.get("free_url", "")}
 (DIST / "assets/data.js").write_text(
     "window.TS_SKILLS=" + json.dumps(skills, separators=(",", ":")) + ";\n"
     "window.TS_EXAMPLE=" + json.dumps(example) + ";\n"
@@ -141,6 +154,7 @@ home = f"""
 <ol><li><b>Paste or upload.</b> Your resume is read in the browser the way an ATS parser reads it. If the text comes out garbled, the ATS will see it garbled too.</li>
 <li><b>We read the posting like a recruiter.</b> {NAME} finds about 240 skills, tools, and certifications across marketing, data, engineering, product, sales, finance, HR, design, and healthcare. It weights them by whether they sit under required or preferred qualifications, and ignores benefits and legal boilerplate.</li>
 <li><b>You get a prioritized fix list.</b> Missing keywords come ranked by impact, with where to add each one. Then nine best-practice checks cover contact info, quantified results, action verbs, weak phrasing, and parse-friendly formatting.</li></ol>
+{f'''<div class="cta"><h3>Free: the 15-minute resume tailoring checklist</h3><p style="margin:0 0 14px">The one-page routine for tailoring any resume to any posting: 5 steps, the bullet formula, and ATS-safe formatting rules. Free PDF, delivered by email.</p><a class="btn primary" href="{e(site["free_url"])}" data-track="free-checklist">Get the free checklist</a></div>''' if site.get("free_url") else ""}
 <h2>Keyword guides by role</h2>
 <p>No job description handy? Start with the keywords recruiters search for in your field.</p>
 {role_links(0, 12)}
@@ -235,7 +249,8 @@ kit = f"""<section class="hero"><div class="wrap narrow"><h1>{e(site['kit_name']
 <h2>Who it is for</h2>
 <ul><li>You are sending a lot of applications and hearing nothing back.</li><li>You know you should tailor each resume but it takes you an hour.</li><li>You lose track of where you applied and never follow up.</li><li>You want templates that will not get mangled by an applicant tracking system.</li></ul>
 <h2>Price</h2>
-<p class="price">{e(site['kit_price'])} <span class="muted" style="font-size:1rem;font-weight:400">one time</span></p>
+<p class="price">{(f'<s class="muted" style="font-weight:400">{e(site["kit_price"])}</s> <span class="launch">{e(site["launch_price"])}</span>') if LAUNCH else e(site['kit_price'])} <span class="muted" style="font-size:1rem;font-weight:400">one time</span></p>
+{f'<p class="launch"><b>Launch price through {LAUNCH_ENDS_TXT}.</b> The code {e(site["launch_code"])} is applied automatically at checkout.</p>' if LAUNCH else ''}
 <p>That is less than one month of most resume-scanner subscriptions, and you keep everything.</p>
 <div class="row">{kit_buy_button()}</div>
 <h2>FAQ</h2>{faq_html(kit_faq)}
@@ -296,6 +311,8 @@ pages.remove("404.html")
                                   "".join(f"  <url><loc>{BASE}/{p}</loc></url>\n" for p in pages) + "</urlset>\n")
 (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
 (DIST / ".nojekyll").write_text("")
+if site.get("indexnow_key"):
+    (DIST / f"{site['indexnow_key']}.txt").write_text(site["indexnow_key"])
 if site.get("custom_domain"):
     (DIST / "CNAME").write_text(site["custom_domain"] + "\n")
 
