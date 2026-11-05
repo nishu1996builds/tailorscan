@@ -183,6 +183,7 @@
         (KIT.free_url ? '<p style="margin:12px 0 0;font-size:.92rem">Not ready to buy? <a href="' + esc(KIT.free_url) + '" data-track="free-results">Get the free 15-minute tailoring checklist</a>.</p>' : '') + '</div>');
     }
     out.innerHTML = h.join('');
+    if (window.TS_UTM) out.querySelectorAll('a[href*="gumroad.com"]').forEach(function (a) { var x = new URL(a.href); Object.keys(window.TS_UTM).forEach(function (k) { x.searchParams.set(k, window.TS_UTM[k]); }); a.href = x.toString(); });
     out.classList.remove('hidden');
     $('copy-report').addEventListener('click', function () { copy(TailorScan.report(last)); track('copy-report'); });
     $('copy-missing').addEventListener('click', function () { copy(last.missing.map(function (s) { return s.skill; }).join(', ')); });

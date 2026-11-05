@@ -75,6 +75,9 @@ def layout(path, title, description, body, depth, schema=None, active="", root=N
 <footer class="site"><div class="wrap"><div>&copy; {site['year']} {e(NAME)}. Your resume never leaves your browser.</div>
 <div class="row"><a href="{root}privacy/">Privacy</a><a href="{root}jobscan-alternative/">Free Jobscan alternative</a><a href="{root}keywords/">Resume keywords</a></div></div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>(function(){{try{{var q=new URLSearchParams(location.search),u={{}};["utm_source","utm_medium","utm_campaign","utm_content"].forEach(function(k){{if(q.get(k))u[k]=q.get(k);}});
+if(Object.keys(u).length)sessionStorage.setItem("ts_utm",JSON.stringify(u));u=JSON.parse(sessionStorage.getItem("ts_utm")||"{{}}");
+if(!Object.keys(u).length)return;window.TS_UTM=u;document.querySelectorAll('a[href*="gumroad.com"]').forEach(function(a){{var x=new URL(a.href);Object.keys(u).forEach(function(k){{x.searchParams.set(k,u[k]);}});a.href=x.toString();}});}}catch(e){{}}}})();</script>
 <script>(function(){{var end=Date.parse("{site.get('launch_ends','')}");if(!end||Date.now()<end)return;
 document.querySelectorAll("[data-full]").forEach(function(a){{a.href=a.getAttribute("data-full");a.textContent=a.getAttribute("data-full-label");}});
 document.querySelectorAll(".launch").forEach(function(x){{x.style.display="none";}});}})();</script>
