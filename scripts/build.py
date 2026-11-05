@@ -52,7 +52,8 @@ def layout(path, title, description, body, depth, schema=None, active="", root=N
 <meta property="og:description" content="{e(description)}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{e(canonical)}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{BASE}/assets/kit-cover.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231f6f5c'/%3E%3Ctext x='16' y='22' font-size='17' font-family='Arial' font-weight='900' fill='white' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="{root}assets/style.css">
 {ld}
